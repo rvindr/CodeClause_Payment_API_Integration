@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+.aqua-text {
+    color: rgb(84, 176, 166) !important;
+}
+.navbar-nav {
+    background-color: hsl(0 0% 100% / 0.1) !important;
+    border-radius: 10px;
+    /* box-shadow: -1px 0px 6px rgba(0,0,0,0.49); */
+    box-shadow: -1px 0px 6px rgba(84, 176, 166, 0.49);
+}
+.wrap {
+    height: 100vh;
+    min-height: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    z-index: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.logo {
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 20%;
+    /* border: 2px solid red; */
+}
+.nav-item a {
+    /* color: #ffff !important; */
+    color: white !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin-left: 2rem !important;
+}
+.nav-item a:hover {
+    color: rgb(84, 176, 166) !important;
+
+}
+.main-col {
+    font-family: 'Ubuntu', sans-serif;
+    /* text-shadow: 3px 0px 7px rgba(0,0,0,0.50); */
+    line-height: 2rem;
+
+}
+.main-col>h2 {
+    font-size: 3rem !important;
+    color: white !important;
+    /* text-shadow: 3px 0px 7px rgba(0,0,0,0.60); */
+    text-shadow: -1px 0px 6px rgba(0, 0, 0, 0.49);
+}
+.main-col-btn-1 {
+    display: inline-block;
+    color: white !important;
+    font-family: 'Ubuntu', sans-serif;
+    /* 184 176 66 */
+    background-color: rgb(84, 176, 166) !important;
+    padding: 1rem !important;
+    font-size: 0.8rem !important;
+}
+.main-col-btn-2 {
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    /* 184 176 66 */
+    background-color: white !important;
+    padding: 1rem !important;
+    font-size: 0.8rem !important;
+}
+.my-container {
+    width: 90%;
+    margin: 0 auto
+}
+.card-title {
+    font-family: 'Ubuntu', sans-serif;
+}
+.card {
+    border: none !important;
+    margin: 0 auto !important;
+}
+.card-price {
+    background-color: rgba(12, 194, 255, 0.344) !important;
+    border-radius: 10px;
+}
+.card-btn {
+    color: white !important;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(84, 176, 166) !important;
+    padding: 0.5rem 0.5rem !important;
+}
+.footer{
+    background-color: rgb(188, 218, 218) !important;
+}

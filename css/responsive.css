@@ -1,0 +1,25 @@
+.mt-30{
+    margin-top: 30vh !important;
+}
+@media screen and (max-width: 980px)
+{
+    .mt-30{
+        margin-top: 5vh !important;
+    }
+    .main-col-btn-1 {
+        padding: 0.3rem !important;
+    }
+    .main-col-btn-2 {
+        
+        padding: 0.3rem !important;
+    }
+    .navbar-collapse,.navbar-toggler{
+        display: none;
+    }
+    .mob-res{
+        display: none;
+    }
+    .card{
+        margin-bottom: 10px !important;
+    }
+}
