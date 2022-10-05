@@ -60,8 +60,8 @@ if (PAYTM_ENVIRONMENT == 'PROD') {
 	$PAYTM_TXN_URL='https://securegw-stage.paytm.in/theia/processTransaction';
 
 	//Change this constant's value with Merchant key received from Paytm.
-	$PAYTM_MERCHANT_MID 		= "DDhyof27077863800613";
-	$PAYTM_MERCHANT_KEY 		= "ZypPTQzexMHmcVEb";
+	$PAYTM_MERCHANT_MID 		= "Enter_merchant_id_here";
+	$PAYTM_MERCHANT_KEY 		= "Enter_merchant_key_here";
 
 	$PAYTM_CHANNEL_ID 		= "WEB";
 	$PAYTM_INDUSTRY_TYPE_ID = "Retail";
